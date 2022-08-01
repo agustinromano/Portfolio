@@ -4,7 +4,7 @@
 
 body {
   text-align: center;
-  font-family: 'Slabo 27px', serif;
+  font-family: "Slabo 27px", serif;
 }
 
 nav {
@@ -19,14 +19,15 @@ nav {
 }
 
 h1 {
-  font-family: 'Abril Fatface', cursive;
+  font-family: "Abril Fatface", cursive;
 }
 
 a:hover {
   color: rgb(104, 255, 149);
 }
 
-.aboutButton, .projectButton {
+.aboutButton,
+.projectButton {
   text-decoration: none;
   color: black;
 }
@@ -51,7 +52,6 @@ header {
   border-radius: 50%;
   width: 100px;
   height: 100px;
-
 }
 
 article {
@@ -80,21 +80,22 @@ footer {
   display: grid;
 }
 
-.logos{
+.logos {
   box-sizing: content-box;
   padding: 5px;
 }
 
-#linkedIn{
+#linkedIn {
   width: 30px;
   height: 30px;
 }
 
-#github{
+#github {
   width: 35px;
   height: 35px;
 }
 
-#contactEmail, #contactPhone{
+#contactEmail,
+#contactPhone {
   color: black;
 }
