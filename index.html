@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
@@ -19,12 +19,14 @@
     <title>Portfolio Wireframe</title>
   </head>
   <body>
+    <!-- HEADER -->
     <header>
       <h1 class="name">Agustin Romano</h1>
       <img src="images/profile.jpg" alt="profile picture" id="profile_pic" />
       <p>Full Stack Developer</p>
     </header>
 
+    <!-- MAIN -->
     <main>
       <div class="intro">
         <p>
@@ -33,27 +35,53 @@
         </p>
       </div>
       <div class="aboutMe">
-        <h3>About Me</h3>
+        <h2 class="h2_aboutMe">About Me</h2>
+        <hr />
         <p>
-          I have been learning code for about 2 years. I joined Thinkful to
-          improve my skills and learn to code to prepar me for a job. On my free
-          time I love to play video games (FPS are my favorite) and to watch
-          sports.
+          I have been learning code for about 2 years. I love to work along side
+          people that way I can learn from them. I can also help my colleague if
+          they need assistance or get stuck.
         </p>
+        <h3 class="h3_aboutMe">Interests:</h3>
+        <li class="li_interests">
+          <ul>
+            - Playing video games
+          </ul>
+          <ul>
+            - Watching sports
+          </ul>
+          <ul>
+            - Mountain biking
+          </ul>
+        </li>
       </div>
     </main>
 
+    <!-- FOOTER -->
     <footer>
-      <a href="https://www.linkedin.com/in/agustin-g-romano/"
-        ><img src="images/linkedin.png" alt="linkedin"
-      /></a>
-      <a href="https://github.com/agustinromano"
-        ><img src="images/github.png" alt="github"
-      /></a>
-      <a href="mailto:agustin.g.romano@gmail.com"
-        ><img src="images/at.png" alt="email"
-      /></a>
+      <li class="footer">
+        <ol>
+          <a href="https://www.linkedin.com/in/agustin-g-romano/"
+            ><img src="images/linkedin.png" alt="linkedin"
+          /></a>
+        </ol>
+        <ol>
+          <a href="https://github.com/agustinromano"
+            ><img src="images/github.png" alt="github"
+          /></a>
+        </ol>
+        <ol>
+          <a href="mailto:agustin.g.romano@gmail.com"
+            ><img src="images/at.png" alt="email"
+          /></a>
+        </ol>
+      </li>
     </footer>
     <script src="script.js"></script>
   </body>
 </html>
+
+<!-- An about me section needs to contain a description that demonstrates your willingness to work with others and a sentence or two that describes other interests outside of development.
+HTML should be semantic and valid. Take a look at the report here
+HTML markup needs to include all the required HTML elements. You missed adding h2,ul,ol and hr HTML elements in your HTML file.
+Try to add more comments in the code, as it will increase the readability and help you during the debugging process. -->

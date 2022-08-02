@@ -128,18 +128,30 @@ table {
   border-spacing: 0;
 }
 
-/*__________MY STYLING START HERE______________*/
+/*----------MY STYLING START HERE----------*/
 
 body {
   font-family: "Roboto", sans-serif;
 }
 
+/*----HEADER----*/
 header {
   background: aliceblue;
   text-align: center;
   padding: 20px;
 }
+.name {
+  font-family: "Roboto Slab", serif;
+  font-size: 70px;
+}
 
+#profile_pic {
+  border-radius: 20px;
+  width: 300px;
+  padding: 10px;
+}
+
+/*----MAIN----*/
 main {
   display: grid;
   grid-template-columns: 200px 1fr 200px;
@@ -151,11 +163,21 @@ main {
   grid-column-end: 3;
   padding: 15px;
 }
-.aboutMe h3 {
+.h2_aboutMe {
   padding-bottom: 10px;
   font-size: 25px;
 }
 
+.h3_aboutMe {
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.li_interests {
+  list-style: none;
+}
+
+/*----FOOTER----*/
 footer {
   position: fixed;
   left: 0;
@@ -166,13 +188,9 @@ footer {
   padding: 5px;
 }
 
-.name {
-  font-family: "Roboto Slab", serif;
-  font-size: 70px;
-}
-
-#profile_pic {
-  border-radius: 20px;
-  width: 300px;
-  padding: 10px;
+.footer {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 10px;
 }
