@@ -156,9 +156,9 @@ main {
   display: grid;
   grid-template-columns: 200px 1fr 200px;
   width: 100%;
+  height: auto;
 }
-.intro,
-.aboutMe {
+article {
   grid-column-start: 2;
   grid-column-end: 3;
   padding: 15px;
@@ -175,6 +175,16 @@ main {
 
 .li_interests {
   list-style: none;
+}
+
+.contactMe {
+  text-align: center;
+  padding: 10px;
+}
+a {
+  padding: 5px;
+  color: blue;
+  text-decoration: none;
 }
 
 /*----FOOTER----*/
